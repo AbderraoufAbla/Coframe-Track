@@ -26,7 +26,7 @@ This project consists of a website optimization tool with the following componen
 
 3. Create a `.env` file in the `backend` directory and add your OpenAI API key:
    ```env
-   OPENAI_API_KEY=your_openai_api_key
+   OPENAI_API_KEY=sk-test-1234567890abcdef1234567890abcdef
    ```
 
 4. Start the server:
