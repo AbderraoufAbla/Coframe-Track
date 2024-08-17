@@ -1,6 +1,4 @@
-Certainly! Here's the README.md file in markdown format:
 
-```markdown
 # Website Optimization Tool
 
 ## Overview
