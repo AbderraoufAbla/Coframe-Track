@@ -1,1 +1,17 @@
+const winston = require('winston');
+
+// Create a logger instance with specified configuration
+const logger = winston.createLogger({
+    level: 'info',
+    format: winston.format.combine(
+        winston.format.timestamp(),
+        winston.format.json()
+    ),
+    transports: [
+        new winston.transports.File({ filename: 'logging.json' }),
+        new winston.transports.Console()
+    ]
+});
+
+module.exports = logger;
 
